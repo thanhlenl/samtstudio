@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.navbar-brand {
+    font-family: abril-fatface;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.bg-dark {
+    background-image: url("../image/bg-navbar.png") !important; 
+}

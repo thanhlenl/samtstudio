@@ -1,0 +1,114 @@
+background-color: rgba(49,49,49,0.70);background-color: rgba(49,49,49,0.70);background-color: rgba(49,49,49,0.70);@charset "UTF-8";
+		  .topSpace {
+			  margin-top: 1%;
+		  }
+	 .bg-light {
+    background-color: #FFFFFF!important;
+}
+.navbar-nav 
+{
+	float: right;
+}
+.navbar-nav.mr-auto.mt-2.mt-lg-0 .nav-item.dropdown #navbarDropdown 
+{
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.navbar-toggler {
+	position: absolute;
+	right: 10px;
+	top:10px;
+}
+	.nav-link  {
+    color: #747474 !important;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		}
+	.nav-link:hover {
+    color: #747474!important;
+    font-weight: bold;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		}
+.navbar .navbar-brand img {
+    width: 50%;
+}
+		  .dropdowm-item {
+			  background-color :#FFF !important;
+			  border :0;
+		  }
+		  .dropdown-menu {
+			  background-color: #5D5C5C!important;
+		  }
+		  .dropdown-menu a {
+    			color: #CBCBCB!important; 
+    			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;			  
+		  }
+		  .dropdown-menu a:hover {
+    			font-weight: bolder !important; 	  
+		  }
+		  .carousel-caption {
+			  color :#000 !important;
+		  }
+
+		  h5 {
+			  color : #000 !important;
+		  }
+.card .img-fluid {
+	
+display: block;
+}
+.card .img-fluid:hover {
+	
+background-color: rgba(49,49,49,0.6);
+}
+footer{
+	width: 100%;
+	margin-top: 3%;
+	
+}
+.footer {
+    
+    background-color: #000 !important;
+    color: #FFFFFF;
+		  }
+.text-muted {
+     color: #CBCBCB!important; 
+	 text: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	
+}
+.container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer a {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+@media screen and (min-width:450px) and (max-width:990px){
+	.navbar .navbar-brand img {
+    width: 30%;
+}
+	
+
+}
+@media screen and (min-width:767px){
+	.row {
+	display:none;
+}
+}
+
+@media screen and (max-width:767px){
+.navbar .navbar-brand img {
+    width: 30%;
+}
+	.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+	.carousel {
+		display:none !important;
+	}
+
+}

@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+ .topSpace {
+			  margin-top: 1%;
+		  }
+	 .bg-light {
+    background-color: #FFFFFF!important;
+}
+.navbar-nav 
+{
+	float: right;
+}
+.navbar-nav.mr-auto.mt-2.mt-lg-0 .nav-item.dropdown #navbarDropdown 
+{
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.navbar-toggler {
+	position: absolute;
+	right: 10px;
+	top:10px;
+}
+	.nav-link  {
+    color: #747474 !important;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		}
+	.nav-link:hover {
+    color: #747474!important;
+    font-weight: bold;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		}
+.navbar .navbar-brand img {
+    width: 50%;
+}
+		  .dropdowm-item {
+			  background-color :#FFF !important;
+			  border :0;
+		  }
+		  .dropdown-menu {
+			  background-color: #5D5C5C!important;
+		  }
+		  .dropdown-menu a {
+    			color: #CBCBCB!important; 
+    			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;			  
+		  }
+		  .dropdown-menu a:hover {
+    			font-weight: bolder !important; 	  
+		  }
+
+body {
+ 
+font: 100% Verdana, Arial, Helvetica, sans-serif;
+text-align: left;
+ min-height: 100vh;
+ position: relative;
+  margin: 0;
+
+}
+footer{
+	overflow: hidden; 
+    position : relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #000 !important;
+    color: #FFFFFF;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+    bottom: 0;
+}
+.text-muted {
+     color: #CBCBCB!important; 
+	 text: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+
+.footer a img{
+    width:40px;
+	margin-right:1%;
+}
+
+body, html {
+	margin:0;
+	padding:0;
+	}
+/* General Styles */
+
+ #mainContent {
+	margin: 0 auto;
+	padding: 0;
+	width: 900px;
+	text-align: left;
+	height: 100%;
+}
+#mainContent .article, #mainContent .galleryArticle {
+	background: #fff;
+	padding: 0.5em 0.5em 2em;
+	margin-bottom: 1em;
+	border-top: none;
+}
+#mainContent .galleryArticle h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.5em;
+	line-height:1.75em;
+	text-align: center;
+	color: #666;
+	margin: 1em 2em 0;
+	font-weight: normal;
+	padding: 0;
+	background: none;
+}
+#mainContent .galleryArticle h3 {
+	text-align: center;
+}
+.section {
+	margin-top:2%;
+	height: 600px;
+	width: 400px;
+	background-repeat: no-repeat;
+	position: relative;
+	float:left;
+	margin-right:40px;
+}
+
+.overlay {
+	background-color: rgba(49,49,49,0.70);
+	top: 500px;
+	position: absolute;
+	overflow: hidden;
+	height: 50px;
+	width: 400px;
+	-webkit-transition: all 1s ease-in-out .2s;
+	-moz-transition: all 1s ease-in-out .2s;
+	-ms-transition: all 1s ease-in-out .2s;
+	-o-transition: all 1s ease-in-out .2s;
+	transition: all 1s ease-in-out .2s;	
+}
+.topline{
+	border-top: 1px dotted #666;
+}
+
+.overlay:hover {
+	height: 600px;
+	top: 0px;
+}
+.row {
+	display:none;
+}
+
+@media screen and (min-width:450px) and (max-width:990px){
+	.navbar .navbar-brand img {
+    width: 30%;
+}
+@media screen and (max-width:767px){
+.navbar .navbar-brand img {
+    width: 30%;
+}
+	.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+	.col-12{
+		margin-top:1%;
+		margin-bottom:1%;
+	}
+	.section {
+		display:none !important;
+	}
+	
+
+}
