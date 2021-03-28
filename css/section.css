@@ -1,24 +1,29 @@
 @charset "UTF-8";
 
  .topSpace {
-			  margin-top: 1%;
-		  }
-	 .bg-light {
+	margin-top: 1%;
+}
+
+.bg-light {
     background-color: #FFFFFF!important;
 }
+
 .navbar-nav 
 {
 	float: right;
 }
+
 .navbar-nav.mr-auto.mt-2.mt-lg-0 .nav-item.dropdown #navbarDropdown 
 {
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
+
 .navbar-toggler {
 	position: absolute;
 	right: 10px;
 	top:10px;
 }
+
 	.nav-link  {
     color: #747474 !important;
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
@@ -26,35 +31,38 @@
 	.nav-link:hover {
     color: #747474!important;
     font-weight: bold;
-    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-		}
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
 .navbar .navbar-brand img {
     width: 50%;
 }
-		  .dropdowm-item {
-			  background-color :#FFF !important;
-			  border :0;
-		  }
-		  .dropdown-menu {
-			  background-color: #5D5C5C!important;
-		  }
-		  .dropdown-menu a {
-    			color: #CBCBCB!important; 
-    			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;			  
-		  }
-		  .dropdown-menu a:hover {
-    			font-weight: bolder !important; 	  
-		  }
+.dropdowm-item {
+	background-color :#FFF !important;
+	border :0;
+}
+.dropdown-menu {
+	background-color: #5D5C5C!important;
+}
+
+.dropdown-menu a {
+    color: #CBCBCB!important; 
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;			  
+}
+
+.dropdown-menu a:hover {
+    font-weight: bolder !important; 	  
+}
 
 body {
  
-font: 100% Verdana, Arial, Helvetica, sans-serif;
-text-align: left;
- min-height: 100vh;
- position: relative;
-  margin: 0;
-
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	min-height: 100vh;
+	position: relative;
+	margin: 0;
 }
+
 footer{
 	overflow: hidden; 
     position : relative;
@@ -69,9 +77,10 @@ footer{
 	position: absolute;
     bottom: 0;
 }
+
 .text-muted {
      color: #CBCBCB!important; 
-	 text: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	 font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
 
@@ -151,19 +160,21 @@ body, html {
 @media screen and (max-width:990px){
 	.navbar .navbar-brand img {
     width: 30%;
+	}
 }
+
 @media screen and (max-width:767px){
-.navbar .navbar-brand img {
-    width: 30%;
-}
+	.navbar .navbar-brand img {
+   		width: 30%;
+	}
 	.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+    	display: -ms-flexbox;
+    	display: flex;
+    	-ms-flex-wrap: wrap;
+    	flex-wrap: wrap;
+   		margin-right: -15px;
+		margin-left: -15px;
+	}
 	.col-12{
 		margin-top:1%;
 		margin-bottom:1%;
@@ -171,6 +182,4 @@ body, html {
 	.section {
 		display:none !important;
 	}
-	
-
 }

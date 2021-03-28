@@ -1,4 +1,4 @@
-background-color: rgba(49,49,49,0.70);background-color: rgba(49,49,49,0.70);background-color: rgba(49,49,49,0.70);@charset "UTF-8";
+@charset "UTF-8";
 		  .topSpace {
 			  margin-top: 1%;
 		  }
@@ -70,8 +70,8 @@ footer{
     color: #FFFFFF;
 		  }
 .text-muted {
-     color: #CBCBCB!important; 
-	 text: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    color: #CBCBCB!important; 
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	
 }
 .container {

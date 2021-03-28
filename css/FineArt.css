@@ -116,7 +116,7 @@ footer{
 		  }
 .text-muted {
      color: #CBCBCB!important; 
-	 text: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	 font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
 .footer a {
